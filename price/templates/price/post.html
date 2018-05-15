@@ -1,0 +1,9 @@
+{% extends 'mainApp/wrapper.html' %}
+
+{% block content %}
+
+	<h2 class='text-info'>{{price.title}}</h2>
+	<h6 class='text-info'>Опубликовано: {{price.date|date:'Y-m-d в H:i:s'}} </h6>
+	<p>{{price.post|safe|linebreaks}}</p>
+
+{% endblock %}
