@@ -1,0 +1,117 @@
+{% extends 'example/wrapper.html' %}
+
+{% block content %}
+{% load static %}
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <h1 class='text-center'>Общая схема сотрудничества</h1><br><br>
+        <div class="row">         
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'example/img/plan.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h3>Планирование</h3>
+            <p>Выезд на объект. Выполнение замеров. При необходимости выполняем проектирование инженерных коммуникаций (как новых систем так и реконструкции). Определение стоимости материалов (предложим на выбор различные бренды разных ценовых категорий). Составление сметной документации (в т.ч. в программном комплексе АВК-5). </p>
+        <!--    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'example/img/agr.jpg' %}" alt="Generic placeholder image" width="140" height="140">
+            <h3>Заключение договора</h3>
+            <p>Наличный и безналичный расчет. Работаем со всеми организационно-правовыми формами. Работаем как по Договору Подряда так и по Договору об оказании Услуг (материалы Заказчика). Возможно оплатить материалы напрямую Поставщику. Осуществляем доставку на объект. Работаем исключительно по предоплате (размер предоплаты индивидуален для каждого объекта, условия крайне гибкие).</p>
+           <!-- <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="{% static 'example/img/act.png' %}" alt="Generic placeholder image" width="140" height="140">
+            <h3>Сдача выполненных работ</h3>
+            <p>Производим демонтажные и монтажные работы. Выполнение работ бригадой контролирует и курирует прораб, в т.ч. и на небольших объектах. При возникновении допработ составляем Допсоглашение. При отсутствии технадзора по окончанию работ выявляем с Заказчиком дефекты и исправляем. Подписание актов. Полный расчет. Гарантийный срок (прописывается в Договоре).</p>
+         <!--   <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p> -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Водоснабжение. <span class="text-muted">Виды выполняемых работ.</span></h2>
+            <p class="lead">
+              <ul>
+                <li>Проектирование систем водоснабжения частного загородного дома, коттеджа, бани, квартиры, офисы, рестораны, кафе, спортклубы, и т.д.</li>
+                <li>Монтаж систем водоснабжения частного загородного дома, коттеджа, бани;</li>
+                <li>Монтаж систем водоснабжения в квартирах;</li>
+                <li>Монтаж систем водоснабжения в многоквартирных домах;</li>
+                <li>Монтаж систем водоснабжения в офисных и т.д. учреждениях; </li>
+                <li>Коллекторная разводка водоснабжения;</li>
+                <li>Замена водоснабжения;</li>
+                <li>Модернизация водоснабжения;</li>
+                <li>Монтаж теплого пола;</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="{% static 'example/img/vl_7.jpg' %}">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Отопление. <span class="text-muted">Виды выполняемых работ.</span></h2>
+            <p class="lead">
+             <ul>
+                <li>Проектирование систем отопления частного загородного дома, коттеджа, бани, сауны, офисы, рестораны, кафе, спортклубы, и т.д;  </li>
+                <li>Монтаж систем отопления частного загородного дома, коттеджа, бани, сауны;</li>
+                <li>Монтаж систем отопления в квартирах;</li>
+                <li>Монтаж систем отопления в многоквартирных домах;</li>
+                <li>Монтаж систем отопления в офисах, ресторанах, кафе, спортклубах, и т.д;</li>
+                <li>Коллекторная разводка отопления;</li>
+                <li>Замена отопления;</li>
+                <li>Модернизация отопления;</li>
+                <li>Монтаж теплого пола;</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="{% static 'example/img/hl_2.jpg' %}">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Канализация. <span class="text-muted">Виды выполняемых работ.</span></h2>
+            <p class="lead">
+              <ul>
+                <li>Проектирование систем канализации частного загородного дома, коттеджа, бани, сауны, офисы, рестораны, кафе, спортклубы, и т.д;</li>
+                <li>Монтаж систем канализации частного загородного дома, коттеджа, бани, сауны;</li>
+                <li>Монтаж очистных сооружений, септика;</li>
+                <li>Монтаж систем канализации в офисах, ресторанах, кафе, спортклубы, и т.д;</li>
+                <li>Монтаж канализации в домах</li>
+                <li>Монтаж канализации в квартирах;</li>
+                <li>Наружная канализация монтаж;</li>
+                <li>Внутренняя канализация монтаж;</li>
+                <li>Автономная канализация монтаж;</li>
+                <li>Локальная канализация монтаж;</li>
+                <li>Ливневая канализация монтаж;</li>
+                <li>Монтаж местной канализации;</li>
+                <li>Замена канализации;</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="{% static 'example/img/cl_2.jpg' %}">
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+
+{% endblock %}

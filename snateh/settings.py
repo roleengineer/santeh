@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vlb%qvt2essp1510zis5h%wogqu41n&ue200ulp4+p3dhi%x2o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['www.v-krovlya.od.ua', 'v-krovlya.od.ua', ]
 
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['www.v-krovlya.od.ua', 'v-krovlya.od.ua', ]
 # Application definition
 
 INSTALLED_APPS = [
+    'example',
     'mainApp', 
     'services', 
     'price', 
